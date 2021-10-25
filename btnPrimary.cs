@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
 namespace btnLib
 {
     public partial class btnPrimary: UserControl
@@ -112,7 +113,7 @@ namespace btnLib
             set
             {
                 text = value;
-                botonPrimary.Text = text;
+                botonPrimary.Text = text = text.Replace("@", " "+ "\n"); 
             }
         }
 
