@@ -19,6 +19,7 @@ namespace btnLib
 
         private Size tamaño;
         private Image img;
+        private Size imgSize;
 
         private String text;
 
@@ -126,6 +127,19 @@ namespace btnLib
             {
                 img = value;
                 botonPrimary.Image = img;
+            }
+        }
+        [Category("Editores")]
+        public Size Tamaño_imagen
+        {
+            get
+            {
+                return imgSize;
+            }
+            set
+            {
+                imgSize = value;
+                botonPrimary.ImageSize = imgSize;
             }
         }
 
