@@ -29,7 +29,7 @@ namespace btnLib
 
 
         // Declares the name and type of the property.
-        [Category("Colores")]
+        [Category("Editores")]
         public Color Color1_Arriba
         {
             // Retrieves the value of the private variable colBColor.
@@ -46,7 +46,7 @@ namespace btnLib
             }
         }
         // Provides a similar set of instructions for the foreground color.
-        [Category("Colores")]
+        [Category("Editores")]
         public Color Color2_Abajo
         {
             get
@@ -61,7 +61,7 @@ namespace btnLib
             }
         }
 
-        [Category("Colores")]
+        [Category("Editores")]
         public Color Hover1_Arriba
         {
             // Retrieves the value of the private variable colBColor.
@@ -78,7 +78,7 @@ namespace btnLib
             }
         }
         // Provides a similar set of instructions for the foreground color.
-        [Category("Colores")]
+        [Category("Editores")]
         public Color Hover2_Abajo
         {
             get
@@ -106,7 +106,7 @@ namespace btnLib
                 this.Size = tamaño;
             }
         }
-        [Category("Texto")]
+        [Category("Editores")]
         public String Texto
         {
             get
@@ -127,7 +127,7 @@ namespace btnLib
             Right
         }
         TextoAlineo textoAlineo;
-        [Category("Texto")]
+        [Category("Editores")]
         public TextoAlineo Alineacion_texto
         {
             get { return textoAlineo; }
@@ -152,7 +152,7 @@ namespace btnLib
             }
         }
 
-        [Category("Imagen")]
+        [Category("Editores")]
         public Image Imagen
         {
             get
@@ -165,7 +165,7 @@ namespace btnLib
                 botonPrimary.Image = img;
             }
         }
-        [Category("Imagen")]
+        [Category("Editores")]
         public Size Tamaño_imagen
         {
             get

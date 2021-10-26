@@ -27,7 +27,7 @@ namespace btnLib
 
 
 
-        [Category("Colores")]
+        [Category("Editores")]
         public Color Color1_Arriba
         {
             get
@@ -40,7 +40,7 @@ namespace btnLib
                 botonVerde.BaseColor1 = abajColor;
             }
         }
-        [Category("Colores")]
+        [Category("Editores")]
         public Color Color2_Abajo
         {
             get
@@ -55,7 +55,7 @@ namespace btnLib
             }
         }
 
-        [Category("Colores")]
+        [Category("Editores")]
         public Color Hover1_Arriba
         {
             get
@@ -68,7 +68,7 @@ namespace btnLib
                 botonVerde.OnHoverBaseColor1 = arribHover;
             }
         }
-        [Category("Colores")]
+        [Category("Editores")]
         public Color Hover2_Abajo
         {
             get
@@ -96,7 +96,7 @@ namespace btnLib
                 this.Size = tamaño;
             }
         }
-        [Category("Texto")]
+        [Category("Editores")]
         public String Texto
         {
             get
@@ -117,7 +117,7 @@ namespace btnLib
             Right
         }
         TextoAlineo textoAlineo;
-        [Category("Texto")]
+        [Category("Editores")]
         public TextoAlineo Alineacion_texto
         {
             get { return textoAlineo; }
@@ -142,7 +142,7 @@ namespace btnLib
             }
         }
 
-        [Category("Imagen")]
+        [Category("Editores")]
         public Image Imagen
         {
             get
@@ -155,7 +155,7 @@ namespace btnLib
                 botonVerde.Image = img;
             }
         }
-        [Category("Imagen")]
+        [Category("Editores")]
         public Size Tamaño_imagen
         {
             get

@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace btnLib
 {
-    public partial class btnAzul : UserControl
+    public partial class btnAmarillo : UserControl
     {
         private Color arribColor;
         private Color abajColor;
@@ -37,7 +37,7 @@ namespace btnLib
             set
             {
                 abajColor = value;
-                botonAzul.BaseColor1 = abajColor;
+                botonAmarillo.BaseColor1 = abajColor;
             }
         }
         [Category("Editores")]
@@ -50,7 +50,7 @@ namespace btnLib
             set
             {
                 arribColor = value;
-                botonAzul.BaseColor2 = arribColor;
+                botonAmarillo.BaseColor2 = arribColor;
 
             }
         }
@@ -65,7 +65,7 @@ namespace btnLib
             set
             {
                 arribHover = value;
-                botonAzul.OnHoverBaseColor1 = arribHover;
+                botonAmarillo.OnHoverBaseColor1 = arribHover;
             }
         }
         [Category("Editores")]
@@ -78,7 +78,7 @@ namespace btnLib
             set
             {
                 abajHover = value;
-                botonAzul.OnHoverBaseColor2 = abajHover;
+                botonAmarillo.OnHoverBaseColor2 = abajHover;
             }
         }
         [Category("Editores")]
@@ -92,7 +92,7 @@ namespace btnLib
             set
             {
                 tamaño = value;
-                botonAzul.Size = tamaño;
+                botonAmarillo.Size = tamaño;
                 this.Size = tamaño;
             }
         }
@@ -106,7 +106,7 @@ namespace btnLib
             set
             {
                 text = value;
-                botonAzul.Text = text = text.Replace("@", "" + "\n");
+                botonAmarillo.Text = text = text.Replace("@", "" + "\n");
             }
         }
 
@@ -127,15 +127,15 @@ namespace btnLib
                 switch (textoAlineo)
                 {
                     case TextoAlineo.Center:
-                        botonAzul.TextAlign = HorizontalAlignment.Center;
+                        botonAmarillo.TextAlign = HorizontalAlignment.Center;
                         break;
 
                     case TextoAlineo.Right:
-                        botonAzul.TextAlign = HorizontalAlignment.Right;
+                        botonAmarillo.TextAlign = HorizontalAlignment.Right;
                         break;
 
                     case TextoAlineo.Left:
-                        botonAzul.TextAlign = HorizontalAlignment.Left;
+                        botonAmarillo.TextAlign = HorizontalAlignment.Left;
                         break;
 
                 }
@@ -152,7 +152,7 @@ namespace btnLib
             set
             {
                 img = value;
-                botonAzul.Image = img;
+                botonAmarillo.Image = img;
             }
         }
         [Category("Editores")]
@@ -165,13 +165,10 @@ namespace btnLib
             set
             {
                 imgSize = value;
-                botonAzul.ImageSize = imgSize;
+                botonAmarillo.ImageSize = imgSize;
             }
         }
-
-
-
-        public btnAzul()
+        public btnAmarillo()
         {
             InitializeComponent();
         }
