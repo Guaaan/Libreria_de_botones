@@ -55,9 +55,13 @@
             this.botonPrimary.OnHoverForeColor = System.Drawing.Color.White;
             this.botonPrimary.OnHoverImage = null;
             this.botonPrimary.OnPressedColor = System.Drawing.Color.Black;
+            this.botonPrimary.OnPressedDepth = 50;
             this.botonPrimary.Radius = 8;
             this.botonPrimary.Size = new System.Drawing.Size(175, 50);
             this.botonPrimary.TabIndex = 0;
+            this.botonPrimary.Text = "Botón";
+            this.botonPrimary.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.botonPrimary.UseTransfarantBackground = true;
             // 
             // btnPrimary
             // 
@@ -66,7 +70,7 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.Controls.Add(this.botonPrimary);
             this.Name = "btnPrimary";
-            this.Size = new System.Drawing.Size(177, 53);
+            this.Size = new System.Drawing.Size(175, 50);
             this.ResumeLayout(false);
 
         }

@@ -45,6 +45,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="btnAzul.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="btnAzul.Designer.cs">
+      <DependentUpon>btnAzul.cs</DependentUpon>
+    </Compile>
     <Compile Include="btnPrimary.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -60,6 +66,9 @@
     <Service Include="{94E38DFF-614B-4cbd-B67C-F211BB35CE8B}" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="btnAzul.resx">
+      <DependentUpon>btnAzul.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="btnPrimary.resx">
       <DependentUpon>btnPrimary.cs</DependentUpon>
     </EmbeddedResource>

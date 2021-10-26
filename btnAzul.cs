@@ -1,17 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
-using System.Drawing;
 using System.Data;
+using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-
 namespace btnLib
 {
-    public partial class btnPrimary: UserControl
+    public partial class btnAzul : UserControl
     {
         private Color arribColor;
         private Color abajColor;
@@ -25,27 +24,22 @@ namespace btnLib
         private String text = "Botón";
 
 
-        
 
 
-        // Declares the name and type of the property.
+
         [Category("Colores")]
         public Color Color1_Arriba
         {
-            // Retrieves the value of the private variable colBColor.
             get
             {
                 return abajColor;
             }
-            // Stores the selected value in the private variable colBColor, and
-            // updates the background color of the label control lblDisplay.
             set
             {
                 abajColor = value;
-                botonPrimary.BaseColor1 = abajColor;
+                botonAzul.BaseColor1 = abajColor;
             }
         }
-        // Provides a similar set of instructions for the foreground color.
         [Category("Colores")]
         public Color Color2_Abajo
         {
@@ -56,7 +50,7 @@ namespace btnLib
             set
             {
                 arribColor = value;
-                botonPrimary.BaseColor2 = arribColor;
+                botonAzul.BaseColor2 = arribColor;
 
             }
         }
@@ -64,20 +58,16 @@ namespace btnLib
         [Category("Colores")]
         public Color Hover1_Arriba
         {
-            // Retrieves the value of the private variable colBColor.
             get
             {
                 return arribHover;
             }
-            // Stores the selected value in the private variable colBColor, and
-            // updates the background color of the label control lblDisplay.
             set
             {
                 arribHover = value;
-                botonPrimary.OnHoverBaseColor1 = arribHover;
+                botonAzul.OnHoverBaseColor1 = arribHover;
             }
         }
-        // Provides a similar set of instructions for the foreground color.
         [Category("Colores")]
         public Color Hover2_Abajo
         {
@@ -88,7 +78,7 @@ namespace btnLib
             set
             {
                 abajHover = value;
-                botonPrimary.OnHoverBaseColor2 = abajHover;
+                botonAzul.OnHoverBaseColor2 = abajHover;
             }
         }
         [Category("Editores")]
@@ -98,11 +88,11 @@ namespace btnLib
             {
                 return tamaño;
             }
-            
+
             set
             {
                 tamaño = value;
-                botonPrimary.Size = tamaño;
+                botonAzul.Size = tamaño;
                 this.Size = tamaño;
             }
         }
@@ -116,7 +106,7 @@ namespace btnLib
             set
             {
                 text = value;
-                botonPrimary.Text = text = text.Replace("@", ""+ "\n"); 
+                botonAzul.Text = text = text.Replace("@", "" + "\n");
             }
         }
 
@@ -137,15 +127,15 @@ namespace btnLib
                 switch (textoAlineo)
                 {
                     case TextoAlineo.Center:
-                        botonPrimary.TextAlign = HorizontalAlignment.Center;
+                        botonAzul.TextAlign = HorizontalAlignment.Center;
                         break;
 
                     case TextoAlineo.Right:
-                        botonPrimary.TextAlign = HorizontalAlignment.Right;
+                        botonAzul.TextAlign = HorizontalAlignment.Right;
                         break;
 
                     case TextoAlineo.Left:
-                        botonPrimary.TextAlign = HorizontalAlignment.Left;
+                        botonAzul.TextAlign = HorizontalAlignment.Left;
                         break;
 
                 }
@@ -162,7 +152,7 @@ namespace btnLib
             set
             {
                 img = value;
-                botonPrimary.Image = img;
+                botonAzul.Image = img;
             }
         }
         [Category("Imagen")]
@@ -175,13 +165,13 @@ namespace btnLib
             set
             {
                 imgSize = value;
-                botonPrimary.ImageSize = imgSize;
+                botonAzul.ImageSize = imgSize;
             }
         }
 
-       
 
-        public btnPrimary()
+
+        public btnAzul()
         {
             InitializeComponent();
         }
