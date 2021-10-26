@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="btnAceptar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="btnAceptar.Designer.cs">
+      <DependentUpon>btnAceptar.cs</DependentUpon>
+    </Compile>
     <Compile Include="btnAmarillo.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -88,6 +94,12 @@
     <Compile Include="btnPrimary.Designer.cs">
       <DependentUpon>btnPrimary.cs</DependentUpon>
     </Compile>
+    <Compile Include="btnRosa.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="btnRosa.Designer.cs">
+      <DependentUpon>btnRosa.cs</DependentUpon>
+    </Compile>
     <Compile Include="btnSalir.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -115,6 +127,9 @@
     <Service Include="{94E38DFF-614B-4cbd-B67C-F211BB35CE8B}" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="btnAceptar.resx">
+      <DependentUpon>btnAceptar.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="btnAmarillo.resx">
       <DependentUpon>btnAmarillo.cs</DependentUpon>
     </EmbeddedResource>
@@ -135,6 +150,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="btnPrimary.resx">
       <DependentUpon>btnPrimary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="btnRosa.resx">
+      <DependentUpon>btnRosa.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="btnSalir.resx">
       <DependentUpon>btnSalir.cs</DependentUpon>

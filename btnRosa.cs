@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace btnLib
 {
-    public partial class btnGris : UserControl
+    public partial class btnRosa : UserControl
     {
         private Color arribColor;
         private Color abajColor;
@@ -38,7 +38,7 @@ namespace btnLib
             set
             {
                 abajColor = value;
-                botonGris.BaseColor1 = abajColor;
+                botonAquamarina.BaseColor1 = abajColor;
             }
         }
         [Category("Editores")]
@@ -51,7 +51,7 @@ namespace btnLib
             set
             {
                 arribColor = value;
-                botonGris.BaseColor2 = arribColor;
+                botonAquamarina.BaseColor2 = arribColor;
 
             }
         }
@@ -66,7 +66,7 @@ namespace btnLib
             set
             {
                 arribHover = value;
-                botonGris.OnHoverBaseColor1 = arribHover;
+                botonAquamarina.OnHoverBaseColor1 = arribHover;
             }
         }
         [Category("Editores")]
@@ -79,7 +79,7 @@ namespace btnLib
             set
             {
                 abajHover = value;
-                botonGris.OnHoverBaseColor2 = abajHover;
+                botonAquamarina.OnHoverBaseColor2 = abajHover;
             }
         }
         [Category("Editores")]
@@ -93,7 +93,7 @@ namespace btnLib
             set
             {
                 tamaño = value;
-                botonGris.Size = tamaño;
+                botonAquamarina.Size = tamaño;
                 this.Size = tamaño;
             }
         }
@@ -107,7 +107,7 @@ namespace btnLib
             set
             {
                 text = value;
-                botonGris.Text = text = text.Replace("@", "" + "\n");
+                botonAquamarina.Text = text = text.Replace("@", "" + "\n");
             }
         }
 
@@ -129,15 +129,15 @@ namespace btnLib
                 switch (textoAlineo)
                 {
                     case TextoAlineo.Center:
-                        botonGris.TextAlign = HorizontalAlignment.Center;
+                        botonAquamarina.TextAlign = HorizontalAlignment.Center;
                         break;
 
                     case TextoAlineo.Right:
-                        botonGris.TextAlign = HorizontalAlignment.Right;
+                        botonAquamarina.TextAlign = HorizontalAlignment.Right;
                         break;
 
                     case TextoAlineo.Left:
-                        botonGris.TextAlign = HorizontalAlignment.Left;
+                        botonAquamarina.TextAlign = HorizontalAlignment.Left;
                         break;
 
                 }
@@ -154,7 +154,7 @@ namespace btnLib
             set
             {
                 img = value;
-                botonGris.Image = img;
+                botonAquamarina.Image = img;
             }
         }
         [Category("Editores")]
@@ -167,10 +167,9 @@ namespace btnLib
             set
             {
                 imgSize = value;
-                botonGris.ImageSize = imgSize;
+                botonAquamarina.ImageSize = imgSize;
             }
         }
-
         [Category("Editores")]
         public int Radio
         {
@@ -178,12 +177,11 @@ namespace btnLib
             set
             {
                 bRadius = value;
-                botonGris.Radius = bRadius;
+                botonAquamarina.Radius = bRadius;
             }
 
         }
-
-        public btnGris()
+        public btnRosa()
         {
             InitializeComponent();
         }
