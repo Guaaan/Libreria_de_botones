@@ -70,6 +70,12 @@
     <Compile Include="btnGrass.Designer.cs">
       <DependentUpon>btnGrass.cs</DependentUpon>
     </Compile>
+    <Compile Include="btnGris.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="btnGris.Designer.cs">
+      <DependentUpon>btnGris.cs</DependentUpon>
+    </Compile>
     <Compile Include="btnNaranja.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -120,6 +126,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="btnGrass.resx">
       <DependentUpon>btnGrass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="btnGris.resx">
+      <DependentUpon>btnGris.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="btnNaranja.resx">
       <DependentUpon>btnNaranja.cs</DependentUpon>
