@@ -57,6 +57,12 @@
     <Compile Include="btnPrimary.Designer.cs">
       <DependentUpon>btnPrimary.cs</DependentUpon>
     </Compile>
+    <Compile Include="btnSalir.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="btnSalir.Designer.cs">
+      <DependentUpon>btnSalir.cs</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -71,6 +77,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="btnPrimary.resx">
       <DependentUpon>btnPrimary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="btnSalir.resx">
+      <DependentUpon>btnSalir.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

@@ -10,3 +10,4 @@ C:\Users\pc\source\repos\btnLib\obj\Debug\btnLib.pdb
 C:\Users\pc\source\repos\btnLib\obj\Debug\btnLib.Properties.Resources.resources
 C:\Users\pc\source\repos\btnLib\obj\Debug\btnLib.csproj.AssemblyReference.cache
 C:\Users\pc\source\repos\btnLib\obj\Debug\btnLib.btnAzul.resources
+C:\Users\pc\source\repos\btnLib\obj\Debug\btnLib.btnSalir.resources
