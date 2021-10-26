@@ -22,6 +22,7 @@ namespace btnLib
         private Size imgSize;
 
         private String text = "Botón";
+        private int bRadius = 8;
 
 
 
@@ -167,6 +168,17 @@ namespace btnLib
                 imgSize = value;
                 botonAmarillo.ImageSize = imgSize;
             }
+        }
+        [Category("Editores")]
+        public int Radio
+        {
+            get { return bRadius; }
+            set
+            {
+                bRadius = value;
+                botonAmarillo.Radius = bRadius;
+            }
+
         }
         public btnAmarillo()
         {

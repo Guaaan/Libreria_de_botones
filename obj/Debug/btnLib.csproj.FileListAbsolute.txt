@@ -15,3 +15,5 @@ C:\Users\pc\source\repos\btnLib\obj\Debug\btnLib.btnVerde.resources
 C:\Users\pc\source\repos\btnLib\obj\Debug\btnLib.btnTeal.resources
 C:\Users\pc\source\repos\btnLib\obj\Debug\btnLib.btnAmarillo.resources
 C:\Users\pc\source\repos\btnLib\obj\Debug\btnLib.btnAquamarina.resources
+C:\Users\pc\source\repos\btnLib\obj\Debug\btnLib.btnGrass.resources
+C:\Users\pc\source\repos\btnLib\obj\Debug\btnLib.btnNaranja.resources

@@ -23,6 +23,7 @@ namespace btnLib
         private Size imgSize;
 
         private String text = "Botón";
+        private int bRadius = 8;
 
 
         
@@ -127,6 +128,7 @@ namespace btnLib
             Right
         }
         TextoAlineo textoAlineo;
+
         [Category("Editores")]
         public TextoAlineo Alineacion_texto
         {
@@ -178,8 +180,18 @@ namespace btnLib
                 botonPrimary.ImageSize = imgSize;
             }
         }
+        [Category("Editores")]
+        public int Radio
+        {
+            get { return bRadius; }
+            set
+            {
+                bRadius = value;
+                botonPrimary.Radius = bRadius;
+            }
 
-       
+        }
+
 
         public btnPrimary()
         {

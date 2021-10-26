@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace btnLib
 {
-    public partial class btnVerde : UserControl
+    public partial class btnGrass : UserControl
     {
         private Color arribColor;
         private Color abajColor;
@@ -23,6 +23,7 @@ namespace btnLib
 
         private String text = "Botón";
 
+        private int bRadius = 8;
 
 
 
@@ -37,7 +38,7 @@ namespace btnLib
             set
             {
                 abajColor = value;
-                botonVerde.BaseColor1 = abajColor;
+                botonGrass.BaseColor1 = abajColor;
             }
         }
         [Category("Editores")]
@@ -50,7 +51,7 @@ namespace btnLib
             set
             {
                 arribColor = value;
-                botonVerde.BaseColor2 = arribColor;
+                botonGrass.BaseColor2 = arribColor;
 
             }
         }
@@ -65,7 +66,7 @@ namespace btnLib
             set
             {
                 arribHover = value;
-                botonVerde.OnHoverBaseColor1 = arribHover;
+                botonGrass.OnHoverBaseColor1 = arribHover;
             }
         }
         [Category("Editores")]
@@ -78,7 +79,7 @@ namespace btnLib
             set
             {
                 abajHover = value;
-                botonVerde.OnHoverBaseColor2 = abajHover;
+                botonGrass.OnHoverBaseColor2 = abajHover;
             }
         }
         [Category("Editores")]
@@ -92,7 +93,7 @@ namespace btnLib
             set
             {
                 tamaño = value;
-                botonVerde.Size = tamaño;
+                botonGrass.Size = tamaño;
                 this.Size = tamaño;
             }
         }
@@ -106,7 +107,7 @@ namespace btnLib
             set
             {
                 text = value;
-                botonVerde.Text = text = text.Replace("@", "" + "\n");
+                botonGrass.Text = text = text.Replace("@", "" + "\n");
             }
         }
 
@@ -117,6 +118,7 @@ namespace btnLib
             Right
         }
         TextoAlineo textoAlineo;
+
         [Category("Editores")]
         public TextoAlineo Alineacion_texto
         {
@@ -127,15 +129,15 @@ namespace btnLib
                 switch (textoAlineo)
                 {
                     case TextoAlineo.Center:
-                        botonVerde.TextAlign = HorizontalAlignment.Center;
+                        botonGrass.TextAlign = HorizontalAlignment.Center;
                         break;
 
                     case TextoAlineo.Right:
-                        botonVerde.TextAlign = HorizontalAlignment.Right;
+                        botonGrass.TextAlign = HorizontalAlignment.Right;
                         break;
 
                     case TextoAlineo.Left:
-                        botonVerde.TextAlign = HorizontalAlignment.Left;
+                        botonGrass.TextAlign = HorizontalAlignment.Left;
                         break;
 
                 }
@@ -152,7 +154,7 @@ namespace btnLib
             set
             {
                 img = value;
-                botonVerde.Image = img;
+                botonGrass.Image = img;
             }
         }
         [Category("Editores")]
@@ -165,10 +167,21 @@ namespace btnLib
             set
             {
                 imgSize = value;
-                botonVerde.ImageSize = imgSize;
+                botonGrass.ImageSize = imgSize;
             }
         }
-        public btnVerde()
+        [Category("Editores")]
+        public int Radio
+        {
+            get { return bRadius; }
+            set
+            {
+                bRadius = value;
+                botonGrass.Radius = bRadius;
+            }
+
+        }
+        public btnGrass()
         {
             InitializeComponent();
         }

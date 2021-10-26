@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace btnLib
 {
-    public partial class btnAzul : UserControl
+    public partial class btnNaranja : UserControl
     {
         private Color arribColor;
         private Color abajColor;
@@ -22,8 +22,8 @@ namespace btnLib
         private Size imgSize;
 
         private String text = "Botón";
-        private int bRadius = 8;
 
+        private int bRadius = 8;
 
 
 
@@ -38,7 +38,7 @@ namespace btnLib
             set
             {
                 abajColor = value;
-                botonAzul.BaseColor1 = abajColor;
+                botonNaranja.BaseColor1 = abajColor;
             }
         }
         [Category("Editores")]
@@ -51,7 +51,7 @@ namespace btnLib
             set
             {
                 arribColor = value;
-                botonAzul.BaseColor2 = arribColor;
+                botonNaranja.BaseColor2 = arribColor;
 
             }
         }
@@ -66,7 +66,7 @@ namespace btnLib
             set
             {
                 arribHover = value;
-                botonAzul.OnHoverBaseColor1 = arribHover;
+                botonNaranja.OnHoverBaseColor1 = arribHover;
             }
         }
         [Category("Editores")]
@@ -79,7 +79,7 @@ namespace btnLib
             set
             {
                 abajHover = value;
-                botonAzul.OnHoverBaseColor2 = abajHover;
+                botonNaranja.OnHoverBaseColor2 = abajHover;
             }
         }
         [Category("Editores")]
@@ -93,7 +93,7 @@ namespace btnLib
             set
             {
                 tamaño = value;
-                botonAzul.Size = tamaño;
+                botonNaranja.Size = tamaño;
                 this.Size = tamaño;
             }
         }
@@ -107,7 +107,7 @@ namespace btnLib
             set
             {
                 text = value;
-                botonAzul.Text = text = text.Replace("@", "" + "\n");
+                botonNaranja.Text = text = text.Replace("@", "" + "\n");
             }
         }
 
@@ -129,15 +129,15 @@ namespace btnLib
                 switch (textoAlineo)
                 {
                     case TextoAlineo.Center:
-                        botonAzul.TextAlign = HorizontalAlignment.Center;
+                        botonNaranja.TextAlign = HorizontalAlignment.Center;
                         break;
 
                     case TextoAlineo.Right:
-                        botonAzul.TextAlign = HorizontalAlignment.Right;
+                        botonNaranja.TextAlign = HorizontalAlignment.Right;
                         break;
 
                     case TextoAlineo.Left:
-                        botonAzul.TextAlign = HorizontalAlignment.Left;
+                        botonNaranja.TextAlign = HorizontalAlignment.Left;
                         break;
 
                 }
@@ -154,7 +154,7 @@ namespace btnLib
             set
             {
                 img = value;
-                botonAzul.Image = img;
+                botonNaranja.Image = img;
             }
         }
         [Category("Editores")]
@@ -167,10 +167,9 @@ namespace btnLib
             set
             {
                 imgSize = value;
-                botonAzul.ImageSize = imgSize;
+                botonNaranja.ImageSize = imgSize;
             }
         }
-
         [Category("Editores")]
         public int Radio
         {
@@ -178,12 +177,11 @@ namespace btnLib
             set
             {
                 bRadius = value;
-                botonAzul.Radius = bRadius;
+                botonNaranja.Radius = bRadius;
             }
 
         }
-
-        public btnAzul()
+        public btnNaranja()
         {
             InitializeComponent();
         }

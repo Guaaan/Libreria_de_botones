@@ -30,7 +30,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Guna.UI">
+    <Reference Include="Guna.UI, Version=1.9.0.0, Culture=neutral, PublicKeyToken=ad275b4be6718d4b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>gunaui\Guna.UI.dll</HintPath>
     </Reference>
     <Reference Include="System" />
@@ -63,6 +64,18 @@
     <Compile Include="btnAzul.Designer.cs">
       <DependentUpon>btnAzul.cs</DependentUpon>
     </Compile>
+    <Compile Include="btnGrass.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="btnGrass.Designer.cs">
+      <DependentUpon>btnGrass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="btnNaranja.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="btnNaranja.Designer.cs">
+      <DependentUpon>btnNaranja.cs</DependentUpon>
+    </Compile>
     <Compile Include="btnPrimary.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -82,10 +95,10 @@
       <DependentUpon>btnTeal.cs</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Properties\btnVerde.cs">
+    <Compile Include="btnVerde.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Properties\btnVerde.Designer.cs">
+    <Compile Include="btnVerde.Designer.cs">
       <DependentUpon>btnVerde.cs</DependentUpon>
     </Compile>
     <Compile Include="Properties\Resources.Designer.cs">
@@ -105,6 +118,12 @@
     <EmbeddedResource Include="btnAzul.resx">
       <DependentUpon>btnAzul.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="btnGrass.resx">
+      <DependentUpon>btnGrass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="btnNaranja.resx">
+      <DependentUpon>btnNaranja.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="btnPrimary.resx">
       <DependentUpon>btnPrimary.cs</DependentUpon>
     </EmbeddedResource>
@@ -114,7 +133,7 @@
     <EmbeddedResource Include="btnTeal.resx">
       <DependentUpon>btnTeal.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Properties\btnVerde.resx">
+    <EmbeddedResource Include="btnVerde.resx">
       <DependentUpon>btnVerde.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
