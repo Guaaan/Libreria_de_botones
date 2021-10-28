@@ -8,9 +8,10 @@
     <OutputType>Library</OutputType>
     <RootNamespace>btnLib</RootNamespace>
     <AssemblyName>btnLib</AssemblyName>
-    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -100,12 +101,6 @@
     <Compile Include="btnRosa.Designer.cs">
       <DependentUpon>btnRosa.cs</DependentUpon>
     </Compile>
-    <Compile Include="btnSalir.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="btnSalir.Designer.cs">
-      <DependentUpon>btnSalir.cs</DependentUpon>
-    </Compile>
     <Compile Include="btnTeal.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -123,6 +118,12 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl1.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UserControl1.Designer.cs">
+      <DependentUpon>UserControl1.cs</DependentUpon>
     </Compile>
     <Service Include="{94E38DFF-614B-4cbd-B67C-F211BB35CE8B}" />
   </ItemGroup>
@@ -154,9 +155,6 @@
     <EmbeddedResource Include="btnRosa.resx">
       <DependentUpon>btnRosa.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="btnSalir.resx">
-      <DependentUpon>btnSalir.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="btnTeal.resx">
       <DependentUpon>btnTeal.cs</DependentUpon>
     </EmbeddedResource>
@@ -166,6 +164,9 @@
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl1.resx">
+      <DependentUpon>UserControl1.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

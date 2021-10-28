@@ -12,14 +12,15 @@ namespace btnLib
 {
     public partial class btnAceptar : UserControl
     {
-        private Color arribColor;
-        private Color abajColor;
-        private Color arribHover;
-        private Color abajHover;
+        private Color arribColor = Color.FromArgb(29, 185, 84);
+        private Color abajColor = Color.FromArgb(22, 139, 68);
+        private Color arribHover = Color.FromArgb(3, 100, 48);
+        private Color abajHover = Color.FromArgb(3, 100, 48);
 
-        private Size tamaño;
-        private Image img;
-        private Size imgSize;
+        private Size tamaño = new Size(105 ,30);
+
+        //private Image img;
+        private Size imgSize = new Size(25, 25);
 
         private String text = "Botón";
         private int bRadius = 8;
@@ -33,12 +34,12 @@ namespace btnLib
         {
             get
             {
-                return abajColor;
+                return arribColor;
             }
             set
             {
-                abajColor = value;
-                botonAceptar.BaseColor1 = abajColor;
+                arribColor = value;
+                botonAceptar.BaseColor1 = arribColor;
             }
         }
         [Category("Editores")]
@@ -46,12 +47,12 @@ namespace btnLib
         {
             get
             {
-                return arribColor;
+                return abajColor;
             }
             set
             {
-                arribColor = value;
-                botonAceptar.BaseColor2 = arribColor;
+                abajColor = value;
+                botonAceptar.BaseColor2 = abajColor;
 
             }
         }
@@ -144,7 +145,7 @@ namespace btnLib
             }
         }
 
-        [Category("Editores")]
+        /*[Category("Editores")]
         public Image Imagen
         {
             get
@@ -156,7 +157,7 @@ namespace btnLib
                 img = value;
                 botonAceptar.Image = img;
             }
-        }
+        }*/
         [Category("Editores")]
         public Size Tamaño_imagen
         {

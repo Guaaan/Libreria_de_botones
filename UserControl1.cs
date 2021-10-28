@@ -7,10 +7,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Guna.UI.WinForms;
 
 namespace btnLib
 {
-    public partial class btnSalir : UserControl
+    public partial class UserControl1 : GunaGradientButton
     {
         private Color arribColor;
         private Color abajColor;
@@ -21,7 +22,8 @@ namespace btnLib
         private Image img;
         private Size imgSize;
 
-        private String text= "Salir";
+        private String text = "Salir";
+        private String textSalir = "Salir";
 
 
 
@@ -36,7 +38,7 @@ namespace btnLib
             set
             {
                 abajColor = value;
-                botonSalir.BaseColor1 = abajColor;
+                this.BaseColor1 = abajColor;
             }
         }
         [Category("Colores")]
@@ -49,7 +51,7 @@ namespace btnLib
             set
             {
                 arribColor = value;
-                botonSalir.BaseColor2 = arribColor;
+                this.BaseColor2 = arribColor;
 
             }
         }
@@ -64,7 +66,7 @@ namespace btnLib
             set
             {
                 arribHover = value;
-                botonSalir.OnHoverBaseColor1 = arribHover;
+                this.OnHoverBaseColor1 = arribHover;
             }
         }
         [Category("Colores")]
@@ -77,7 +79,7 @@ namespace btnLib
             set
             {
                 abajHover = value;
-                botonSalir.OnHoverBaseColor2 = abajHover;
+                this.OnHoverBaseColor2 = abajHover;
             }
         }
         [Category("Editores")]
@@ -91,7 +93,7 @@ namespace btnLib
             set
             {
                 tamaño = value;
-                botonSalir.Size = tamaño;
+                this.Size = tamaño;
                 this.Size = tamaño;
             }
         }
@@ -105,7 +107,13 @@ namespace btnLib
             set
             {
                 text = value;
-                botonSalir.Text = text;
+                
+                this.Text = textSalir;
+                
+                this.Text = text = text.Replace("@", "" + "\n");
+
+                
+
             }
         }
 
@@ -126,15 +134,15 @@ namespace btnLib
                 switch (textoAlineo)
                 {
                     case TextoAlineo.Center:
-                        botonSalir.TextAlign = HorizontalAlignment.Center;
+                        this.TextAlign = HorizontalAlignment.Center;
                         break;
 
                     case TextoAlineo.Right:
-                        botonSalir.TextAlign = HorizontalAlignment.Right;
+                        this.TextAlign = HorizontalAlignment.Right;
                         break;
 
                     case TextoAlineo.Left:
-                        botonSalir.TextAlign = HorizontalAlignment.Left;
+                        this.TextAlign = HorizontalAlignment.Left;
                         break;
 
                 }
@@ -151,7 +159,7 @@ namespace btnLib
             set
             {
                 img = value;
-                botonSalir.Image = img;
+                this.Image = img;
             }
         }
         [Category("Imagen")]
@@ -164,20 +172,14 @@ namespace btnLib
             set
             {
                 imgSize = value;
-                botonSalir.ImageSize = imgSize;
+                this.ImageSize = imgSize;
             }
         }
 
 
-
-        public btnSalir()
+        public UserControl1()
         {
             InitializeComponent();
-        }
-
-        private void botonSalir_Click(object sender, EventArgs e)
-        {
-            ParentForm.Close();
         }
     }
 }
