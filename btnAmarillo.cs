@@ -12,16 +12,17 @@ namespace btnLib
 {
     public partial class btnAmarillo : UserControl
     {
-        private Color arribColor;
-        private Color abajColor;
-        private Color arribHover;
-        private Color abajHover;
+        private Color arribColor = Color.FromArgb(246, 181, 30);
+        private Color abajColor = Color.FromArgb(248, 149, 9);
+        private Color arribHover = Color.FromArgb(227, 139, 5);
+        private Color abajHover = Color.FromArgb(227, 139, 5);
 
-        private Size tamaño;
+        private Size tamaño = new Size(105, 30);
+
         private Image img;
-        private Size imgSize;
+        private Size imgSize = new Size(25, 25);
 
-        private String text = "Botón";
+        private String text = "Aceptar";
         private int bRadius = 8;
 
 
@@ -33,12 +34,12 @@ namespace btnLib
         {
             get
             {
-                return abajColor;
+                return arribColor;
             }
             set
             {
-                abajColor = value;
-                botonAmarillo.BaseColor1 = abajColor;
+                arribColor = value;
+                botonAmarillo.BaseColor1 = arribColor;
             }
         }
         [Category("Editores")]
@@ -46,12 +47,12 @@ namespace btnLib
         {
             get
             {
-                return arribColor;
+                return abajColor;
             }
             set
             {
-                arribColor = value;
-                botonAmarillo.BaseColor2 = arribColor;
+                abajColor = value;
+                botonAmarillo.BaseColor2 = abajColor;
 
             }
         }

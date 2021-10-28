@@ -22,7 +22,7 @@ namespace btnLib
         //private Image img;
         private Size imgSize = new Size(25, 25);
 
-        private String text = "Botón";
+        private String text = "Aceptar";
         private int bRadius = 8;
 
 
