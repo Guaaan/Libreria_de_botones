@@ -26,29 +26,12 @@ namespace btnLib
         private int bRadius = 8;
 
 
-        
+
 
 
         // Declares the name and type of the property.
         [Category("Editores")]
         public Color Color1_Arriba
-        {
-            // Retrieves the value of the private variable colBColor.
-            get
-            {
-                return abajColor;
-            }
-            // Stores the selected value in the private variable colBColor, and
-            // updates the background color of the label control lblDisplay.
-            set
-            {
-                abajColor = value;
-                botonPrimary.BaseColor1 = abajColor;
-            }
-        }
-        // Provides a similar set of instructions for the foreground color.
-        [Category("Editores")]
-        public Color Color2_Abajo
         {
             get
             {
@@ -57,7 +40,20 @@ namespace btnLib
             set
             {
                 arribColor = value;
-                botonPrimary.BaseColor2 = arribColor;
+                botonPrimary.BaseColor1 = arribColor;
+            }
+        }
+        [Category("Editores")]
+        public Color Color2_Abajo
+        {
+            get
+            {
+                return abajColor;
+            }
+            set
+            {
+                abajColor = value;
+                botonPrimary.BaseColor2 = abajColor;
 
             }
         }

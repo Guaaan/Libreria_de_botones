@@ -33,12 +33,12 @@ namespace btnLib
         {
             get
             {
-                return abajColor;
+                return arribColor;
             }
             set
             {
-                abajColor = value;
-                botonNaranja.BaseColor1 = abajColor;
+                arribColor = value;
+                botonNaranja.BaseColor1 = arribColor;
             }
         }
         [Category("Editores")]
@@ -46,12 +46,12 @@ namespace btnLib
         {
             get
             {
-                return arribColor;
+                return abajColor;
             }
             set
             {
-                arribColor = value;
-                botonNaranja.BaseColor2 = arribColor;
+                abajColor = value;
+                botonNaranja.BaseColor2 = abajColor;
 
             }
         }

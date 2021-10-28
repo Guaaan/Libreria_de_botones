@@ -29,47 +29,47 @@ namespace btnLib
         /// </summary>
         private void InitializeComponent()
         {
-            this.botonAquamarina = new Guna.UI.WinForms.GunaGradientButton();
+            this.botonRosa = new Guna.UI.WinForms.GunaGradientButton();
             this.SuspendLayout();
             // 
-            // botonAquamarina
+            // botonRosa
             // 
-            this.botonAquamarina.Animated = true;
-            this.botonAquamarina.AnimationHoverSpeed = 0.07F;
-            this.botonAquamarina.AnimationSpeed = 0.03F;
-            this.botonAquamarina.BackColor = System.Drawing.Color.Transparent;
-            this.botonAquamarina.BaseColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(96)))), ((int)(((byte)(108)))));
-            this.botonAquamarina.BaseColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(66)))), ((int)(((byte)(78)))));
-            this.botonAquamarina.BorderColor = System.Drawing.Color.Black;
-            this.botonAquamarina.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.botonAquamarina.FocusedColor = System.Drawing.Color.Empty;
-            this.botonAquamarina.Font = new System.Drawing.Font("Gadugi", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.botonAquamarina.ForeColor = System.Drawing.Color.White;
-            this.botonAquamarina.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
-            this.botonAquamarina.Image = null;
-            this.botonAquamarina.ImageSize = new System.Drawing.Size(20, 20);
-            this.botonAquamarina.Location = new System.Drawing.Point(0, 0);
-            this.botonAquamarina.Name = "botonAquamarina";
-            this.botonAquamarina.OnHoverBaseColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(42)))), ((int)(((byte)(50)))));
-            this.botonAquamarina.OnHoverBaseColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(42)))), ((int)(((byte)(50)))));
-            this.botonAquamarina.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.botonAquamarina.OnHoverForeColor = System.Drawing.Color.White;
-            this.botonAquamarina.OnHoverImage = null;
-            this.botonAquamarina.OnPressedColor = System.Drawing.Color.Black;
-            this.botonAquamarina.OnPressedDepth = 50;
-            this.botonAquamarina.Radius = 8;
-            this.botonAquamarina.Size = new System.Drawing.Size(175, 50);
-            this.botonAquamarina.TabIndex = 6;
-            this.botonAquamarina.Text = "Botón";
-            this.botonAquamarina.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.botonAquamarina.UseTransfarantBackground = true;
+            this.botonRosa.Animated = true;
+            this.botonRosa.AnimationHoverSpeed = 0.07F;
+            this.botonRosa.AnimationSpeed = 0.03F;
+            this.botonRosa.BackColor = System.Drawing.Color.Transparent;
+            this.botonRosa.BaseColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(96)))), ((int)(((byte)(108)))));
+            this.botonRosa.BaseColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(66)))), ((int)(((byte)(78)))));
+            this.botonRosa.BorderColor = System.Drawing.Color.Black;
+            this.botonRosa.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.botonRosa.FocusedColor = System.Drawing.Color.Empty;
+            this.botonRosa.Font = new System.Drawing.Font("Gadugi", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.botonRosa.ForeColor = System.Drawing.Color.White;
+            this.botonRosa.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
+            this.botonRosa.Image = null;
+            this.botonRosa.ImageSize = new System.Drawing.Size(20, 20);
+            this.botonRosa.Location = new System.Drawing.Point(0, 0);
+            this.botonRosa.Name = "botonRosa";
+            this.botonRosa.OnHoverBaseColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(42)))), ((int)(((byte)(50)))));
+            this.botonRosa.OnHoverBaseColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(42)))), ((int)(((byte)(50)))));
+            this.botonRosa.OnHoverBorderColor = System.Drawing.Color.Black;
+            this.botonRosa.OnHoverForeColor = System.Drawing.Color.White;
+            this.botonRosa.OnHoverImage = null;
+            this.botonRosa.OnPressedColor = System.Drawing.Color.Black;
+            this.botonRosa.OnPressedDepth = 50;
+            this.botonRosa.Radius = 8;
+            this.botonRosa.Size = new System.Drawing.Size(175, 50);
+            this.botonRosa.TabIndex = 6;
+            this.botonRosa.Text = "Botón";
+            this.botonRosa.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.botonRosa.UseTransfarantBackground = true;
             // 
             // btnRosa
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.Controls.Add(this.botonAquamarina);
+            this.Controls.Add(this.botonRosa);
             this.Name = "btnRosa";
             this.Size = new System.Drawing.Size(175, 50);
             this.ResumeLayout(false);
@@ -78,6 +78,6 @@ namespace btnLib
 
         #endregion
 
-        private Guna.UI.WinForms.GunaGradientButton botonAquamarina;
+        private Guna.UI.WinForms.GunaGradientButton botonRosa;
     }
 }

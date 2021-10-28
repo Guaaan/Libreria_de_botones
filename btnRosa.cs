@@ -33,12 +33,12 @@ namespace btnLib
         {
             get
             {
-                return abajColor;
+                return arribColor;
             }
             set
             {
-                abajColor = value;
-                botonAquamarina.BaseColor1 = abajColor;
+                arribColor = value;
+                botonRosa.BaseColor1 = arribColor;
             }
         }
         [Category("Editores")]
@@ -46,12 +46,12 @@ namespace btnLib
         {
             get
             {
-                return arribColor;
+                return abajColor;
             }
             set
             {
-                arribColor = value;
-                botonAquamarina.BaseColor2 = arribColor;
+                abajColor = value;
+                botonRosa.BaseColor2 = abajColor;
 
             }
         }
@@ -66,7 +66,7 @@ namespace btnLib
             set
             {
                 arribHover = value;
-                botonAquamarina.OnHoverBaseColor1 = arribHover;
+                botonRosa.OnHoverBaseColor1 = arribHover;
             }
         }
         [Category("Editores")]
@@ -79,7 +79,7 @@ namespace btnLib
             set
             {
                 abajHover = value;
-                botonAquamarina.OnHoverBaseColor2 = abajHover;
+                botonRosa.OnHoverBaseColor2 = abajHover;
             }
         }
         [Category("Editores")]
@@ -93,7 +93,7 @@ namespace btnLib
             set
             {
                 tamaño = value;
-                botonAquamarina.Size = tamaño;
+                botonRosa.Size = tamaño;
                 this.Size = tamaño;
             }
         }
@@ -107,7 +107,7 @@ namespace btnLib
             set
             {
                 text = value;
-                botonAquamarina.Text = text = text.Replace("@", "" + "\n");
+                botonRosa.Text = text = text.Replace("@", "" + "\n");
             }
         }
 
@@ -129,15 +129,15 @@ namespace btnLib
                 switch (textoAlineo)
                 {
                     case TextoAlineo.Center:
-                        botonAquamarina.TextAlign = HorizontalAlignment.Center;
+                        botonRosa.TextAlign = HorizontalAlignment.Center;
                         break;
 
                     case TextoAlineo.Right:
-                        botonAquamarina.TextAlign = HorizontalAlignment.Right;
+                        botonRosa.TextAlign = HorizontalAlignment.Right;
                         break;
 
                     case TextoAlineo.Left:
-                        botonAquamarina.TextAlign = HorizontalAlignment.Left;
+                        botonRosa.TextAlign = HorizontalAlignment.Left;
                         break;
 
                 }
@@ -154,7 +154,7 @@ namespace btnLib
             set
             {
                 img = value;
-                botonAquamarina.Image = img;
+                botonRosa.Image = img;
             }
         }
         [Category("Editores")]
@@ -167,7 +167,7 @@ namespace btnLib
             set
             {
                 imgSize = value;
-                botonAquamarina.ImageSize = imgSize;
+                botonRosa.ImageSize = imgSize;
             }
         }
         [Category("Editores")]
@@ -177,7 +177,7 @@ namespace btnLib
             set
             {
                 bRadius = value;
-                botonAquamarina.Radius = bRadius;
+                botonRosa.Radius = bRadius;
             }
 
         }
