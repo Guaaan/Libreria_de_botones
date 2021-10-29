@@ -41,4 +41,4 @@ C:\Users\pc\source\repos\Libreria_de_botones\obj\Debug\btnLib.csproj.CoreCompile
 C:\Users\pc\source\repos\Libreria_de_botones\obj\Debug\btnLib.csproj.CopyComplete
 C:\Users\pc\source\repos\Libreria_de_botones\obj\Debug\btnLib.dll
 C:\Users\pc\source\repos\Libreria_de_botones\obj\Debug\btnLib.pdb
-C:\Users\pc\source\repos\Libreria_de_botones\obj\Debug\btnLib.UserControl1.resources
+C:\Users\pc\source\repos\Libreria_de_botones\obj\Debug\btnLib.btnSalir.resources

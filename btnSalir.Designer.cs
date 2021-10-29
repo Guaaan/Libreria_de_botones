@@ -58,10 +58,9 @@ namespace btnLib
             this.botonSalir.OnHoverImage = null;
             this.botonSalir.OnPressedColor = System.Drawing.Color.Black;
             this.botonSalir.Radius = 8;
-            this.botonSalir.Size = new System.Drawing.Size(90, 30);
+            this.botonSalir.Size = new System.Drawing.Size(105, 30);
             this.botonSalir.TabIndex = 278;
             this.botonSalir.Text = "Salir";
-            this.botonSalir.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.botonSalir.Click += new System.EventHandler(this.botonSalir_Click);
             // 
             // btnSalir
@@ -71,7 +70,7 @@ namespace btnLib
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.Controls.Add(this.botonSalir);
             this.Name = "btnSalir";
-            this.Size = new System.Drawing.Size(90, 30);
+            this.Size = new System.Drawing.Size(105, 30);
             this.ResumeLayout(false);
 
         }

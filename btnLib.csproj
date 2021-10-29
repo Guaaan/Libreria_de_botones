@@ -101,6 +101,12 @@
     <Compile Include="btnRosa.Designer.cs">
       <DependentUpon>btnRosa.cs</DependentUpon>
     </Compile>
+    <Compile Include="btnSalir.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="btnSalir.Designer.cs">
+      <DependentUpon>btnSalir.cs</DependentUpon>
+    </Compile>
     <Compile Include="btnTeal.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -148,6 +154,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="btnRosa.resx">
       <DependentUpon>btnRosa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="btnSalir.resx">
+      <DependentUpon>btnSalir.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="btnTeal.resx">
       <DependentUpon>btnTeal.cs</DependentUpon>

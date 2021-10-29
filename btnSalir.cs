@@ -12,35 +12,25 @@ namespace btnLib
 {
     public partial class btnSalir : UserControl
     {
-        private Color arribColor;
-        private Color abajColor;
-        private Color arribHover;
-        private Color abajHover;
+        private Color arribColor = Color.FromArgb(29, 185, 84);
+        private Color abajColor = Color.FromArgb(19, 123, 56);
+        private Color arribHover = Color.FromArgb(12, 82, 37);
+        private Color abajHover = Color.FromArgb(12, 82, 37);
 
-        private Size tamaño;
+        private Size tamaño = new Size(175, 50);
+
         private Image img;
-        private Size imgSize;
+        private Size imgSize = new Size(25, 25);
 
-        private String text= "Salir";
+        private String text = "Botón";
+        private int bRadius = 8;
 
 
 
 
-        [Category("Colores")]
+
+        [Category("Editores")]
         public Color Color1_Arriba
-        {
-            get
-            {
-                return abajColor;
-            }
-            set
-            {
-                abajColor = value;
-                botonSalir.BaseColor1 = abajColor;
-            }
-        }
-        [Category("Colores")]
-        public Color Color2_Abajo
         {
             get
             {
@@ -49,12 +39,25 @@ namespace btnLib
             set
             {
                 arribColor = value;
-                botonSalir.BaseColor2 = arribColor;
+                botonSalir.BaseColor1 = arribColor;
+            }
+        }
+        [Category("Editores")]
+        public Color Color2_Abajo
+        {
+            get
+            {
+                return abajColor;
+            }
+            set
+            {
+                abajColor = value;
+                botonSalir.BaseColor2 = abajColor;
 
             }
         }
 
-        [Category("Colores")]
+        [Category("Editores")]
         public Color Hover1_Arriba
         {
             get
@@ -67,7 +70,7 @@ namespace btnLib
                 botonSalir.OnHoverBaseColor1 = arribHover;
             }
         }
-        [Category("Colores")]
+        [Category("Editores")]
         public Color Hover2_Abajo
         {
             get
@@ -95,7 +98,7 @@ namespace btnLib
                 this.Size = tamaño;
             }
         }
-        [Category("Texto")]
+        [Category("Editores")]
         public String Texto
         {
             get
@@ -105,7 +108,7 @@ namespace btnLib
             set
             {
                 text = value;
-                botonSalir.Text = text;
+                botonSalir.Text = text = text.Replace("@", "" + "\n");
             }
         }
 
@@ -116,7 +119,8 @@ namespace btnLib
             Right
         }
         TextoAlineo textoAlineo;
-        [Category("Texto")]
+
+        [Category("Editores")]
         public TextoAlineo Alineacion_texto
         {
             get { return textoAlineo; }
@@ -141,7 +145,7 @@ namespace btnLib
             }
         }
 
-        [Category("Imagen")]
+        [Category("Editores")]
         public Image Imagen
         {
             get
@@ -154,7 +158,7 @@ namespace btnLib
                 botonSalir.Image = img;
             }
         }
-        [Category("Imagen")]
+        [Category("Editores")]
         public Size Tamaño_imagen
         {
             get
@@ -167,8 +171,17 @@ namespace btnLib
                 botonSalir.ImageSize = imgSize;
             }
         }
+        [Category("Editores")]
+        public int Radio
+        {
+            get { return bRadius; }
+            set
+            {
+                bRadius = value;
+                botonSalir.Radius = bRadius;
+            }
 
-
+        }
 
         public btnSalir()
         {
