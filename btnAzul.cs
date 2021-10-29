@@ -12,14 +12,15 @@ namespace btnLib
 {
     public partial class btnAzul : UserControl
     {
-        private Color arribColor;
-        private Color abajColor;
-        private Color arribHover;
-        private Color abajHover;
+        private Color arribColor = Color.FromArgb(0, 120, 214);
+        private Color abajColor = Color.FromArgb(0, 80, 142);
+        private Color arribHover = Color.FromArgb(0, 53, 94);
+        private Color abajHover = Color.FromArgb(0, 53, 94);
 
-        private Size tamaño;
+        private Size tamaño = new Size(175, 50);
+
         private Image img;
-        private Size imgSize;
+        private Size imgSize = new Size(25, 25);
 
         private String text = "Botón";
         private int bRadius = 8;

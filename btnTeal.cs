@@ -12,17 +12,18 @@ namespace btnLib
 {
     public partial class btnTeal : UserControl
     {
-        private Color arribColor;
-        private Color abajColor;
-        private Color arribHover;
-        private Color abajHover;
+        private Color arribColor = Color.FromArgb(13, 101, 133);
+        private Color abajColor = Color.FromArgb(8, 67, 88);
+        private Color arribHover = Color.FromArgb(5, 44, 58);
+        private Color abajHover = Color.FromArgb(5, 44, 58);
 
-        private Size tamaño;
+        private Size tamaño = new Size(175, 50);
+
         private Image img;
-        private Size imgSize;
+        private Size imgSize = new Size(25, 25);
 
         private String text = "Botón";
-        private int bRadius= 8;
+        private int bRadius = 8;
 
 
 

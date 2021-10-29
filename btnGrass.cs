@@ -12,17 +12,17 @@ namespace btnLib
 {
     public partial class btnGrass : UserControl
     {
-        private Color arribColor;
-        private Color abajColor;
-        private Color arribHover;
-        private Color abajHover;
+        private Color arribColor = Color.FromArgb(122, 188, 95);
+        private Color abajColor = Color.FromArgb(81, 125, 63);
+        private Color arribHover = Color.FromArgb(54, 83, 42);
+        private Color abajHover = Color.FromArgb(54, 83, 42);
 
-        private Size tamaño;
+        private Size tamaño = new Size(175, 50);
+
         private Image img;
-        private Size imgSize;
+        private Size imgSize = new Size(25, 25);
 
         private String text = "Botón";
-
         private int bRadius = 8;
 
 

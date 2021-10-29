@@ -12,19 +12,18 @@ namespace btnLib
 {
     public partial class btnAquamarina : UserControl
     {
-        private Color arribColor;
-        private Color abajColor;
-        private Color arribHover;
-        private Color abajHover;
+        private Color arribColor = Color.FromArgb(54, 175, 125);
+        private Color abajColor = Color.FromArgb(36, 116, 83);
+        private Color arribHover = Color.FromArgb(24, 77, 55);
+        private Color abajHover = Color.FromArgb(24, 77, 55);
 
-        private Size tamaño;
+        private Size tamaño = new Size(175,50);
+
         private Image img;
-        private Size imgSize;
+        private Size imgSize = new Size(25, 25);
 
         private String text = "Botón";
         private int bRadius = 8;
-
-
 
 
 

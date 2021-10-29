@@ -12,20 +12,18 @@ namespace btnLib
 {
     public partial class btnGris : UserControl
     {
-        private Color arribColor;
-        private Color abajColor;
-        private Color arribHover;
-        private Color abajHover;
+        private Color arribColor = Color.FromArgb(255, 255, 255);
+        private Color abajColor = Color.FromArgb(170, 170, 170);
+        private Color arribHover = Color.FromArgb(88, 88, 88);
+        private Color abajHover = Color.FromArgb(64, 64, 64);
 
-        private Size tamaño;
+        private Size tamaño = new Size(175, 50);
+
         private Image img;
-        private Size imgSize;
+        private Size imgSize = new Size(25, 25);
 
         private String text = "Botón";
         private int bRadius = 8;
-
-
-
 
 
         [Category("Editores")]

@@ -17,12 +17,12 @@ namespace btnLib
         private Color arribHover = Color.FromArgb(227, 139, 5);
         private Color abajHover = Color.FromArgb(227, 139, 5);
 
-        private Size tamaño = new Size(105, 30);
+        private Size tamaño = new Size(175, 50);
 
         private Image img;
         private Size imgSize = new Size(25, 25);
 
-        private String text = "Aceptar";
+        private String text = "Botón";
         private int bRadius = 8;
 
 

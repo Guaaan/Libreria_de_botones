@@ -114,9 +114,9 @@ namespace btnLib
 
         public enum TextoAlineo
         {
+            Right,
             Center,
-            Left,
-            Right
+            Left
         }
         TextoAlineo textoAlineo;
 
@@ -129,12 +129,12 @@ namespace btnLib
                 textoAlineo = value; Invalidate();
                 switch (textoAlineo)
                 {
-                    case TextoAlineo.Center:
-                        botonAceptar.TextAlign = HorizontalAlignment.Center;
-                        break;
-
                     case TextoAlineo.Right:
                         botonAceptar.TextAlign = HorizontalAlignment.Right;
+                        break;
+
+                    case TextoAlineo.Center:
+                        botonAceptar.TextAlign = HorizontalAlignment.Center;
                         break;
 
                     case TextoAlineo.Left:
