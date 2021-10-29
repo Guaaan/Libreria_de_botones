@@ -19,10 +19,10 @@ namespace btnLib
 
         private Size tamaño = new Size(175, 50);
 
-        private Image img;
+        private Image img /*System.Drawing.Image.FromFile(@"inicio\inventario3.png")*/;
         private Size imgSize = new Size(25, 25);
 
-        private String text = "Botón";
+        private String text = "Salir";
         private int bRadius = 8;
 
 
