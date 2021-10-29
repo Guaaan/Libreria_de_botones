@@ -12,10 +12,10 @@ namespace btnLib
 {
     public partial class btnSalir : UserControl
     {
-        private Color arribColor = Color.FromArgb(29, 185, 84);
-        private Color abajColor = Color.FromArgb(19, 123, 56);
-        private Color arribHover = Color.FromArgb(12, 82, 37);
-        private Color abajHover = Color.FromArgb(12, 82, 37);
+        private Color arribColor = Color.FromArgb(255, 0, 0);
+        private Color abajColor = Color.FromArgb(154, 0, 0);
+        private Color arribHover = Color.FromArgb(102, 0, 0);
+        private Color abajHover = Color.FromArgb(102, 0, 0);
 
         private Size tamaño = new Size(175, 50);
 
