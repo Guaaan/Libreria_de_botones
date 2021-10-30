@@ -17,7 +17,7 @@ namespace btnLib
         private Color arribHover = Color.FromArgb(227, 139, 5);
         private Color abajHover = Color.FromArgb(227, 139, 5);
 
-        private Size tamaño = new Size(175, 50);
+        private Size tamaño = new Size(130, 40);
 
         private Image img;
         private Size imgSize = new Size(25, 25);
@@ -25,9 +25,15 @@ namespace btnLib
         private String text = "Botón";
         private int bRadius = 8;
 
+        private Font fontD;
 
-
-
+        [Category("Editores")]
+        public Font Fuente
+        {
+            get { return fontD; }
+            set { fontD = value;
+                botonAmarillo.Font = fontD; }
+        }
 
         [Category("Editores")]
         public Color Color1_Arriba

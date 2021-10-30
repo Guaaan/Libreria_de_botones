@@ -17,7 +17,7 @@ namespace btnLib
         private Color arribHover = Color.FromArgb(24, 77, 55);
         private Color abajHover = Color.FromArgb(24, 77, 55);
 
-        private Size tamaño = new Size(175,50);
+        private Size tamaño = new Size(130, 40);
 
         private Image img;
         private Size imgSize = new Size(25, 25);

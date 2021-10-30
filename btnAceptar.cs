@@ -28,6 +28,7 @@ namespace btnLib
 
 
 
+       
 
         [Category("Editores")]
         public Color Color1_Arriba
