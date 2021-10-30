@@ -25,6 +25,19 @@ namespace btnLib
         private String text = "Botón";
         private int bRadius = 8;
 
+        private Font fontD = new Font("Gadugi", 14, FontStyle.Bold, GraphicsUnit.Point);
+
+
+        [Category("Editores")]
+        public Font Fuente
+        {
+            get { return fontD; }
+            set
+            {
+                fontD = value;
+                botonGris.Font = fontD;
+            }
+        }
 
         [Category("Editores")]
         public Color Color1_Arriba
