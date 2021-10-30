@@ -49,6 +49,7 @@ namespace btnLib
             this.botonGrass.Image = null;
             this.botonGrass.ImageSize = new System.Drawing.Size(20, 20);
             this.botonGrass.Location = new System.Drawing.Point(0, 0);
+            this.botonGrass.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.botonGrass.Name = "botonGrass";
             this.botonGrass.OnHoverBaseColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(83)))), ((int)(((byte)(42)))));
             this.botonGrass.OnHoverBaseColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(83)))), ((int)(((byte)(42)))));
@@ -58,7 +59,7 @@ namespace btnLib
             this.botonGrass.OnPressedColor = System.Drawing.Color.Black;
             this.botonGrass.OnPressedDepth = 50;
             this.botonGrass.Radius = 8;
-            this.botonGrass.Size = new System.Drawing.Size(175, 50);
+            this.botonGrass.Size = new System.Drawing.Size(130, 40);
             this.botonGrass.TabIndex = 6;
             this.botonGrass.Text = "Botón";
             this.botonGrass.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -66,12 +67,13 @@ namespace btnLib
             // 
             // btnGrass
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.Controls.Add(this.botonGrass);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "btnGrass";
-            this.Size = new System.Drawing.Size(175, 50);
+            this.Size = new System.Drawing.Size(130, 40);
             this.ResumeLayout(false);
 
         }

@@ -49,6 +49,7 @@ namespace btnLib
             this.botonNaranja.Image = null;
             this.botonNaranja.ImageSize = new System.Drawing.Size(20, 20);
             this.botonNaranja.Location = new System.Drawing.Point(0, 0);
+            this.botonNaranja.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.botonNaranja.Name = "botonNaranja";
             this.botonNaranja.OnHoverBaseColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(174)))), ((int)(((byte)(96)))), ((int)(((byte)(0)))));
             this.botonNaranja.OnHoverBaseColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(174)))), ((int)(((byte)(96)))), ((int)(((byte)(0)))));
@@ -58,7 +59,7 @@ namespace btnLib
             this.botonNaranja.OnPressedColor = System.Drawing.Color.Black;
             this.botonNaranja.OnPressedDepth = 50;
             this.botonNaranja.Radius = 8;
-            this.botonNaranja.Size = new System.Drawing.Size(175, 50);
+            this.botonNaranja.Size = new System.Drawing.Size(130, 40);
             this.botonNaranja.TabIndex = 6;
             this.botonNaranja.Text = "Botón";
             this.botonNaranja.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -66,12 +67,13 @@ namespace btnLib
             // 
             // btnNaranja
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.Controls.Add(this.botonNaranja);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "btnNaranja";
-            this.Size = new System.Drawing.Size(175, 50);
+            this.Size = new System.Drawing.Size(130, 40);
             this.ResumeLayout(false);
 
         }

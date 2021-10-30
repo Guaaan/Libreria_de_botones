@@ -49,6 +49,7 @@ namespace btnLib
             this.botonTeal.Image = null;
             this.botonTeal.ImageSize = new System.Drawing.Size(20, 20);
             this.botonTeal.Location = new System.Drawing.Point(0, 0);
+            this.botonTeal.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.botonTeal.Name = "botonTeal";
             this.botonTeal.OnHoverBaseColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(44)))), ((int)(((byte)(58)))));
             this.botonTeal.OnHoverBaseColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(44)))), ((int)(((byte)(58)))));
@@ -58,7 +59,7 @@ namespace btnLib
             this.botonTeal.OnPressedColor = System.Drawing.Color.Black;
             this.botonTeal.OnPressedDepth = 50;
             this.botonTeal.Radius = 8;
-            this.botonTeal.Size = new System.Drawing.Size(175, 50);
+            this.botonTeal.Size = new System.Drawing.Size(130, 40);
             this.botonTeal.TabIndex = 3;
             this.botonTeal.Text = "Botón";
             this.botonTeal.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -66,12 +67,13 @@ namespace btnLib
             // 
             // btnTeal
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.Controls.Add(this.botonTeal);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "btnTeal";
-            this.Size = new System.Drawing.Size(175, 50);
+            this.Size = new System.Drawing.Size(130, 40);
             this.ResumeLayout(false);
 
         }

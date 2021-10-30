@@ -49,6 +49,7 @@ namespace btnLib
             this.botonAquamarina.Image = null;
             this.botonAquamarina.ImageSize = new System.Drawing.Size(20, 20);
             this.botonAquamarina.Location = new System.Drawing.Point(0, 0);
+            this.botonAquamarina.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.botonAquamarina.Name = "botonAquamarina";
             this.botonAquamarina.OnHoverBaseColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(77)))), ((int)(((byte)(55)))));
             this.botonAquamarina.OnHoverBaseColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(77)))), ((int)(((byte)(55)))));
@@ -58,7 +59,7 @@ namespace btnLib
             this.botonAquamarina.OnPressedColor = System.Drawing.Color.Black;
             this.botonAquamarina.OnPressedDepth = 50;
             this.botonAquamarina.Radius = 8;
-            this.botonAquamarina.Size = new System.Drawing.Size(175, 50);
+            this.botonAquamarina.Size = new System.Drawing.Size(130, 40);
             this.botonAquamarina.TabIndex = 5;
             this.botonAquamarina.Text = "Botón";
             this.botonAquamarina.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -66,12 +67,13 @@ namespace btnLib
             // 
             // btnAquamarina
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.Controls.Add(this.botonAquamarina);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "btnAquamarina";
-            this.Size = new System.Drawing.Size(175, 50);
+            this.Size = new System.Drawing.Size(130, 40);
             this.ResumeLayout(false);
 
         }

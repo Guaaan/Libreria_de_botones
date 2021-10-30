@@ -49,6 +49,7 @@ namespace btnLib
             this.botonGris.Image = null;
             this.botonGris.ImageSize = new System.Drawing.Size(35, 35);
             this.botonGris.Location = new System.Drawing.Point(0, 0);
+            this.botonGris.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.botonGris.Name = "botonGris";
             this.botonGris.OnHoverBaseColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(88)))), ((int)(((byte)(88)))), ((int)(((byte)(88)))));
             this.botonGris.OnHoverBaseColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
@@ -58,7 +59,7 @@ namespace btnLib
             this.botonGris.OnPressedColor = System.Drawing.Color.Black;
             this.botonGris.OnPressedDepth = 50;
             this.botonGris.Radius = 8;
-            this.botonGris.Size = new System.Drawing.Size(175, 50);
+            this.botonGris.Size = new System.Drawing.Size(130, 40);
             this.botonGris.TabIndex = 241;
             this.botonGris.Text = "Botón";
             this.botonGris.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -66,12 +67,13 @@ namespace btnLib
             // 
             // btnGris
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.Controls.Add(this.botonGris);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "btnGris";
-            this.Size = new System.Drawing.Size(175, 50);
+            this.Size = new System.Drawing.Size(130, 40);
             this.ResumeLayout(false);
 
         }

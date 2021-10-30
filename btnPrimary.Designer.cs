@@ -48,6 +48,7 @@
             this.botonPrimary.Image = null;
             this.botonPrimary.ImageSize = new System.Drawing.Size(20, 20);
             this.botonPrimary.Location = new System.Drawing.Point(0, 0);
+            this.botonPrimary.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.botonPrimary.Name = "botonPrimary";
             this.botonPrimary.OnHoverBaseColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(124)))), ((int)(((byte)(139)))));
             this.botonPrimary.OnHoverBaseColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(124)))), ((int)(((byte)(139)))));
@@ -57,7 +58,7 @@
             this.botonPrimary.OnPressedColor = System.Drawing.Color.Black;
             this.botonPrimary.OnPressedDepth = 50;
             this.botonPrimary.Radius = 8;
-            this.botonPrimary.Size = new System.Drawing.Size(175, 50);
+            this.botonPrimary.Size = new System.Drawing.Size(130, 40);
             this.botonPrimary.TabIndex = 0;
             this.botonPrimary.Text = "Botón";
             this.botonPrimary.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -65,12 +66,13 @@
             // 
             // btnPrimary
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.Controls.Add(this.botonPrimary);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "btnPrimary";
-            this.Size = new System.Drawing.Size(175, 50);
+            this.Size = new System.Drawing.Size(130, 40);
             this.ResumeLayout(false);
 
         }

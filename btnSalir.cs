@@ -25,7 +25,7 @@ namespace btnLib
         private String text = "Salir";
         private int bRadius = 8;
 
-        private Font fontD = new Font("Gadugi", 14, FontStyle.Bold, GraphicsUnit.Point);
+        private Font fontD = new Font("Tahona", 10, FontStyle.Bold, GraphicsUnit.Point);
 
 
         [Category("Editores")]
