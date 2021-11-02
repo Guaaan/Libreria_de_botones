@@ -29,9 +29,9 @@ namespace btnLib
 
         private Size tamaño = new Size(175, 50);
 
-        private Image img1 = Image.FromFile(@"Exit.png");
-        private Image img2 = Image.FromFile(@"back.png");
-
+        //private Image img1 = Image.FromFile(@"Exit.png");
+        //private Image img2 = Image.FromFile(@"back.png");
+        //private Image img;
 
 
         private Size imgSize = new Size(25, 25);
@@ -172,7 +172,7 @@ namespace btnLib
             }
         }
 
-        public enum ElegirFoto
+        /*public enum ElegirFoto
         {
             Volver,
             Salir
@@ -197,10 +197,10 @@ namespace btnLib
                     
                 }
             }
-        }
+        }*/
 
 
-        /*Category("Editores")]
+        /*[(Category("Editores")]
         public Image Imagen
         {
             get
