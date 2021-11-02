@@ -1,4 +1,5 @@
-﻿using System;
+﻿using btnLib.Properties;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -13,7 +14,14 @@ namespace btnLib
     public partial class btnSalir : UserControl
     {
 
-        
+       
+
+
+
+
+
+
+
         private Color arribColor = Color.FromArgb(255, 0, 0);
         private Color abajColor = Color.FromArgb(154, 0, 0);
         private Color arribHover = Color.FromArgb(102, 0, 0);
@@ -25,12 +33,13 @@ namespace btnLib
         private Image img2 = Image.FromFile(@"back.png");
 
 
+
         private Size imgSize = new Size(25, 25);
 
         private String text = "Salir";
         private int bRadius = 8;
 
-        private Font fontD = new Font("Tahona", 10, FontStyle.Bold, GraphicsUnit.Point);
+        private Font fontD = new Font("Tahoma", 10, FontStyle.Bold, GraphicsUnit.Point);
 
 
         [Category("Editores")]
