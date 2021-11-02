@@ -60,7 +60,6 @@ namespace btnLib
             this.botonSalir.Size = new System.Drawing.Size(105, 30);
             this.botonSalir.TabIndex = 278;
             this.botonSalir.Text = "Salir";
-            this.botonSalir.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.botonSalir.Click += new System.EventHandler(this.botonSalir_Click);
             // 
             // btnSalir
