@@ -13,15 +13,6 @@ namespace btnLib
 {
     public partial class btnSalir : UserControl
     {
-
-       
-
-
-
-
-
-
-
         private Color arribColor = Color.FromArgb(255, 0, 0);
         private Color abajColor = Color.FromArgb(154, 0, 0);
         private Color arribHover = Color.FromArgb(102, 0, 0);
@@ -29,6 +20,7 @@ namespace btnLib
 
         private Size tamaño = new Size(175, 50);
 
+        //opciones de imagen
         //private Image img1 = Image.FromFile(@"Exit.png");
         //private Image img2 = Image.FromFile(@"back.png");
         //private Image img;
@@ -172,6 +164,8 @@ namespace btnLib
             }
         }
 
+
+        //lista de opciones de imagen
         /*public enum ElegirFoto
         {
             Volver,
