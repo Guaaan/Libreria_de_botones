@@ -19,7 +19,7 @@ namespace btnLib
 
         private Size tamaño = new Size(175, 50);
 
-        private Image img = System.Drawing.Image.FromFile(@"resources/exit.png");
+        private Image img = System.Drawing.Image.FromFile(@"exit.png");
         private Size imgSize = new Size(25, 25);
 
         private String text = "Salir";
