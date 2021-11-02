@@ -12,6 +12,8 @@ namespace btnLib
 {
     public partial class btnSalir : UserControl
     {
+
+        
         private Color arribColor = Color.FromArgb(255, 0, 0);
         private Color abajColor = Color.FromArgb(154, 0, 0);
         private Color arribHover = Color.FromArgb(102, 0, 0);
@@ -19,7 +21,10 @@ namespace btnLib
 
         private Size tamaño = new Size(175, 50);
 
-        private Image img = System.Drawing.Image.FromFile(@"exit.png");
+        private Image img1 = Image.FromFile(@"Exit.png");
+        private Image img2 = Image.FromFile(@"back.png");
+
+
         private Size imgSize = new Size(25, 25);
 
         private String text = "Salir";
@@ -158,7 +163,35 @@ namespace btnLib
             }
         }
 
+        public enum ElegirFoto
+        {
+            Volver,
+            Salir
+        }
+        ElegirFoto elegirFoto;
         [Category("Editores")]
+        public ElegirFoto Cambiar_foto
+        { 
+            get { return elegirFoto; }
+            set
+            {
+                elegirFoto = value; Invalidate();
+                switch (elegirFoto)
+                {
+                    case ElegirFoto.Volver:
+                        botonSalir.Image = img1;
+                        break;
+
+                    case ElegirFoto.Salir:
+                        botonSalir.Image = img2;
+                            break;
+                    
+                }
+            }
+        }
+
+
+        /*Category("Editores")]
         public Image Imagen
         {
             get
@@ -170,7 +203,7 @@ namespace btnLib
                 img = value;
                 botonSalir.Image = img;
             }
-        }
+        }*/
         [Category("Editores")]
         public Size Tamaño_imagen
         {
