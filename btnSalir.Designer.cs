@@ -29,7 +29,6 @@ namespace btnLib
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(btnSalir));
             this.botonSalir = new Guna.UI.WinForms.GunaGradientButton();
             this.SuspendLayout();
             // 
@@ -47,7 +46,7 @@ namespace btnLib
             this.botonSalir.Font = new System.Drawing.Font("Gadugi", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.botonSalir.ForeColor = System.Drawing.Color.White;
             this.botonSalir.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
-            this.botonSalir.Image = ((System.Drawing.Image)(resources.GetObject("botonSalir.Image")));
+            this.botonSalir.Image = null;
             this.botonSalir.ImageSize = new System.Drawing.Size(25, 25);
             this.botonSalir.Location = new System.Drawing.Point(0, 0);
             this.botonSalir.Name = "botonSalir";
@@ -61,6 +60,7 @@ namespace btnLib
             this.botonSalir.Size = new System.Drawing.Size(105, 30);
             this.botonSalir.TabIndex = 278;
             this.botonSalir.Text = "Salir";
+            this.botonSalir.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.botonSalir.Click += new System.EventHandler(this.botonSalir_Click);
             // 
             // btnSalir
