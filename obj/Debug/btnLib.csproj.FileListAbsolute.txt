@@ -64,3 +64,4 @@ C:\Users\Usuario\Desktop\farmacia_geminis\Libreria_de_botones\bin\Debug\btnLib.d
 C:\Users\Usuario\Desktop\farmacia_geminis\Libreria_de_botones\bin\Debug\btnLib.pdb
 C:\Users\Usuario\Desktop\farmacia_geminis\Libreria_de_botones\bin\Debug\Guna.UI.dll
 C:\Users\Usuario\Desktop\farmacia_geminis\Libreria_de_botones\obj\Debug\btnLib.csproj.CopyComplete
+C:\Users\pc\source\repos\Libreria_de_botones\obj\Debug\btnLib.PanelTitulo.resources
