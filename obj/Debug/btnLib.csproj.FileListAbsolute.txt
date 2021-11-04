@@ -66,3 +66,5 @@ C:\Users\Usuario\Desktop\farmacia_geminis\Libreria_de_botones\bin\Debug\Guna.UI.
 C:\Users\Usuario\Desktop\farmacia_geminis\Libreria_de_botones\obj\Debug\btnLib.csproj.CopyComplete
 C:\Users\pc\source\repos\Libreria_de_botones\obj\Debug\btnLib.PanelTitulo.resources
 C:\Users\pc\source\repos\Libreria_de_botones\obj\Debug\btnLib.btnNaranjaBrillante.resources
+C:\Users\pc\source\repos\Libreria_de_botones\obj\Debug\btnLib.btnRojo.resources
+C:\Users\pc\source\repos\Libreria_de_botones\obj\Debug\btnLib.btnMorado.resources

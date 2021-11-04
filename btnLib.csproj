@@ -59,6 +59,12 @@
     <Compile Include="btnAmarillo.Designer.cs">
       <DependentUpon>btnAmarillo.cs</DependentUpon>
     </Compile>
+    <Compile Include="btnMorado.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="btnMorado.Designer.cs">
+      <DependentUpon>btnMorado.cs</DependentUpon>
+    </Compile>
     <Compile Include="btnNaranjaBrillante.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -100,6 +106,12 @@
     </Compile>
     <Compile Include="btnPrimary.Designer.cs">
       <DependentUpon>btnPrimary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="btnRojo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="btnRojo.Designer.cs">
+      <DependentUpon>btnRojo.cs</DependentUpon>
     </Compile>
     <Compile Include="btnRosa.cs">
       <SubType>UserControl</SubType>
@@ -146,6 +158,9 @@
     <EmbeddedResource Include="btnAmarillo.resx">
       <DependentUpon>btnAmarillo.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="btnMorado.resx">
+      <DependentUpon>btnMorado.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="btnNaranjaBrillante.resx">
       <DependentUpon>btnNaranjaBrillante.cs</DependentUpon>
     </EmbeddedResource>
@@ -166,6 +181,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="btnPrimary.resx">
       <DependentUpon>btnPrimary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="btnRojo.resx">
+      <DependentUpon>btnRojo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="btnRosa.resx">
       <DependentUpon>btnRosa.cs</DependentUpon>
