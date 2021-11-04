@@ -59,6 +59,12 @@
     <Compile Include="btnAmarillo.Designer.cs">
       <DependentUpon>btnAmarillo.cs</DependentUpon>
     </Compile>
+    <Compile Include="btnNaranjaBrillante.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="btnNaranjaBrillante.Designer.cs">
+      <DependentUpon>btnNaranjaBrillante.cs</DependentUpon>
+    </Compile>
     <Compile Include="btnAquamarina.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -139,6 +145,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="btnAmarillo.resx">
       <DependentUpon>btnAmarillo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="btnNaranjaBrillante.resx">
+      <DependentUpon>btnNaranjaBrillante.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="btnAquamarina.resx">
       <DependentUpon>btnAquamarina.cs</DependentUpon>
