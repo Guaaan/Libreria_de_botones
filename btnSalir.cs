@@ -14,6 +14,18 @@ namespace btnLib
 {
     public partial class btnSalir : UserControl
     {
+        public void addImage()
+        {
+            // Be sure that you use an appropriate escape sequence (such as the
+            // @) when specifying the location of the file.  
+            System.Drawing.Image myImage =
+              Image.FromFile
+            (System.Environment.GetFolderPath
+            (System.Environment.SpecialFolder.Personal)
+            + @"\back.png");
+            imageList1.Images.Add(myImage);
+        }
+
         private Color arribColor = Color.FromArgb(255, 0, 0);
         private Color abajColor = Color.FromArgb(154, 0, 0);
         private Color arribHover = Color.FromArgb(102, 0, 0);
@@ -23,8 +35,9 @@ namespace btnLib
 
         //opciones de imagen
 
-        private Image img1 = Image.FromFile(@"exit.png");
-        private Image img2 = Image.FromFile(@"back.png");
+        
+        private Image img1 = System.Drawing.Image.FromFile(@"exit.png");
+        private Image img2 = System.Drawing.Image.FromFile(@"back.png");
         //private Image img;
 
 

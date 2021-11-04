@@ -29,7 +29,9 @@ namespace btnLib
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.botonSalir = new Guna.UI.WinForms.GunaGradientButton();
+            this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.SuspendLayout();
             // 
             // botonSalir
@@ -62,6 +64,12 @@ namespace btnLib
             this.botonSalir.Text = "Salir";
             this.botonSalir.Click += new System.EventHandler(this.botonSalir_Click);
             // 
+            // imageList1
+            // 
+            this.imageList1.ColorDepth = System.Windows.Forms.ColorDepth.Depth8Bit;
+            this.imageList1.ImageSize = new System.Drawing.Size(16, 16);
+            this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
+            // 
             // btnSalir
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -77,5 +85,6 @@ namespace btnLib
         #endregion
 
         private Guna.UI.WinForms.GunaGradientButton botonSalir;
+        private System.Windows.Forms.ImageList imageList1;
     }
 }
