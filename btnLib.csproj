@@ -119,6 +119,12 @@
     <Compile Include="btnRosa.Designer.cs">
       <DependentUpon>btnRosa.cs</DependentUpon>
     </Compile>
+    <Compile Include="btnVolver.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="btnVolver.Designer.cs">
+      <DependentUpon>btnVolver.cs</DependentUpon>
+    </Compile>
     <Compile Include="btnSalir.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -187,6 +193,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="btnRosa.resx">
       <DependentUpon>btnRosa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="btnVolver.resx">
+      <DependentUpon>btnVolver.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="btnSalir.resx">
       <DependentUpon>btnSalir.cs</DependentUpon>

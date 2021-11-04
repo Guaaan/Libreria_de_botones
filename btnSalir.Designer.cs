@@ -29,9 +29,8 @@ namespace btnLib
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(btnSalir));
             this.botonSalir = new Guna.UI.WinForms.GunaGradientButton();
-            this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.SuspendLayout();
             // 
             // botonSalir
@@ -48,7 +47,7 @@ namespace btnLib
             this.botonSalir.Font = new System.Drawing.Font("Gadugi", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.botonSalir.ForeColor = System.Drawing.Color.White;
             this.botonSalir.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
-            this.botonSalir.Image = null;
+            this.botonSalir.Image = ((System.Drawing.Image)(resources.GetObject("botonSalir.Image")));
             this.botonSalir.ImageSize = new System.Drawing.Size(25, 25);
             this.botonSalir.Location = new System.Drawing.Point(0, 0);
             this.botonSalir.Name = "botonSalir";
@@ -63,12 +62,6 @@ namespace btnLib
             this.botonSalir.TabIndex = 278;
             this.botonSalir.Text = "Salir";
             this.botonSalir.Click += new System.EventHandler(this.botonSalir_Click);
-            // 
-            // imageList1
-            // 
-            this.imageList1.ColorDepth = System.Windows.Forms.ColorDepth.Depth8Bit;
-            this.imageList1.ImageSize = new System.Drawing.Size(16, 16);
-            this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
             // 
             // btnSalir
             // 
@@ -85,6 +78,5 @@ namespace btnLib
         #endregion
 
         private Guna.UI.WinForms.GunaGradientButton botonSalir;
-        private System.Windows.Forms.ImageList imageList1;
     }
 }

@@ -12,8 +12,10 @@ using System.Windows.Forms;
 
 namespace btnLib
 {
-    public partial class btnSalir : UserControl
+    public partial class btnVolver : UserControl
     {
+        
+
         private Color arribColor = Color.FromArgb(255, 0, 0);
         private Color abajColor = Color.FromArgb(154, 0, 0);
         private Color arribHover = Color.FromArgb(102, 0, 0);
@@ -31,7 +33,7 @@ namespace btnLib
 
         private Size imgSize = new Size(25, 25);
 
-        private String text = "Salir";
+        private String text = "Volver";
         private int bRadius = 8;
 
         private Font fontD = new Font("Tahoma", 10, FontStyle.Bold, GraphicsUnit.Point);
@@ -44,7 +46,7 @@ namespace btnLib
             set
             {
                 fontD = value;
-                botonSalir.Font = fontD;
+                botonVolver.Font = fontD;
             }
         }
 
@@ -61,7 +63,7 @@ namespace btnLib
             set
             {
                 arribColor = value;
-                botonSalir.BaseColor1 = arribColor;
+                botonVolver.BaseColor1 = arribColor;
             }
         }
         [Category("Editores")]
@@ -74,7 +76,7 @@ namespace btnLib
             set
             {
                 abajColor = value;
-                botonSalir.BaseColor2 = abajColor;
+                botonVolver.BaseColor2 = abajColor;
 
             }
         }
@@ -89,7 +91,7 @@ namespace btnLib
             set
             {
                 arribHover = value;
-                botonSalir.OnHoverBaseColor1 = arribHover;
+                botonVolver.OnHoverBaseColor1 = arribHover;
             }
         }
         [Category("Editores")]
@@ -102,7 +104,7 @@ namespace btnLib
             set
             {
                 abajHover = value;
-                botonSalir.OnHoverBaseColor2 = abajHover;
+                botonVolver.OnHoverBaseColor2 = abajHover;
             }
         }
         [Category("Editores")]
@@ -116,7 +118,7 @@ namespace btnLib
             set
             {
                 tamaño = value;
-                botonSalir.Size = tamaño;
+                botonVolver.Size = tamaño;
                 this.Size = tamaño;
             }
         }
@@ -130,7 +132,7 @@ namespace btnLib
             set
             {
                 text = value;
-                botonSalir.Text = text = text.Replace("@", "" + "\n");
+                botonVolver.Text = text = text.Replace("@", "" + "\n");
             }
         }
 
@@ -152,15 +154,15 @@ namespace btnLib
                 switch (textoAlineo)
                 {
                     case TextoAlineo.Center:
-                        botonSalir.TextAlign = HorizontalAlignment.Center;
+                        botonVolver.TextAlign = HorizontalAlignment.Center;
                         break;
 
                     case TextoAlineo.Right:
-                        botonSalir.TextAlign = HorizontalAlignment.Right;
+                        botonVolver.TextAlign = HorizontalAlignment.Right;
                         break;
 
                     case TextoAlineo.Left:
-                        botonSalir.TextAlign = HorizontalAlignment.Left;
+                        botonVolver.TextAlign = HorizontalAlignment.Left;
                         break;
 
                 }
@@ -185,11 +187,11 @@ namespace btnLib
                 switch (elegirFoto)
                 {
                     case ElegirFoto.Volver:
-                        botonSalir.Image = img1;
+                        botonVolver.Image = img1;
                         break;
 
                     case ElegirFoto.Salir:
-                        botonSalir.Image = img2;
+                        botonVolver.Image = img2;
                             break;
                     
                 }
@@ -220,7 +222,7 @@ namespace btnLib
             set
             {
                 imgSize = value;
-                botonSalir.ImageSize = imgSize;
+                botonVolver.ImageSize = imgSize;
             }
         }
         [Category("Editores")]
@@ -230,12 +232,12 @@ namespace btnLib
             set
             {
                 bRadius = value;
-                botonSalir.Radius = bRadius;
+                botonVolver.Radius = bRadius;
             }
 
         }
 
-        public btnSalir()
+        public btnVolver()
         {
             InitializeComponent();
         }
