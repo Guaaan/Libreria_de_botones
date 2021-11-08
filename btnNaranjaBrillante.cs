@@ -26,7 +26,30 @@ namespace btnLib
         private int bRadius = 8;
 
         private Font fontD = new Font("Tahoma", 10, FontStyle.Bold, GraphicsUnit.Point);
+        private int offsetImg = 0;
+        private int offsetTxt = 0;
 
+        [Category("Editores")]
+        public int Offset_Texto
+        {
+            get { return offsetTxt; }
+            set
+            {
+                offsetTxt = value;
+                botonNaranjaBrillante.TextOffsetX = offsetTxt;
+            }
+        }
+
+        [Category("Editores")]
+        public int Offset_imagen
+        {
+            get { return offsetImg; }
+            set
+            {
+                offsetImg = value;
+                botonNaranjaBrillante.ImageOffsetX = offsetImg;
+            }
+        }
 
         [Category("Editores")]
         public Font Fuente
